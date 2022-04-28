@@ -41,7 +41,7 @@ import "./App.css";
 
 const Star = ({ starId, rating, onMouseEnter, onMouseLeave, onClick }) => {
   let styleClass = "star-rating-blank";
-  if (rating && rating >=starId) {
+  if ( rating >=starId) {
     styleClass = "star-rating-filled";
   }
 
