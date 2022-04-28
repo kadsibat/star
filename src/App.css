@@ -16,15 +16,17 @@ body {
 }
 
 .star-rating-filled {
-  fill: white;
+  fill: #d8d8d8;
+ 
+  background-color:#00B67A;
 }
 
 .star-rating-blank {
-  fill: #d8d8d8;
+  fill: white;
 }
 
 .star{
-  background-color:#00B67A;
+  background-color:#d8d8d8;
   margin:2px;
 /* display:flex;
 justify-content: center;
