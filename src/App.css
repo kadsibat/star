@@ -3,9 +3,11 @@
  .App {
   text-align: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
   flex-direction: column;
+  margin-top: 28rem;
+  margin-left:2rem;
 }
 
 
