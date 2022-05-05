@@ -2,7 +2,8 @@
 
 // import React, { useState } from "react";
 import "./App.css";
-import StarComponent from "./components/StarComponent"
+import Card from "./components/Card";
+// import StarComponent from "./components/StarComponent"
 
 
 // const Star = ({ starId, rating, onMouseEnter, onMouseLeave, onClick }) => {
@@ -64,7 +65,8 @@ function App() {
       </div> */}
     
     
-      <StarComponent />
+      {/* <StarComponent /> */}
+      <Card/>
     </div>
   );
 }

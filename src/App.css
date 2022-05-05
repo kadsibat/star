@@ -43,3 +43,19 @@ text-align: center;
  /* justify-content: center; */
 }
 
+.card{
+  width: 120px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  gap:5px;
+  padding-top:1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+.card-first{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
