@@ -4,10 +4,13 @@ import stars from "../assets/stars-5.svg";
 
 
 const Card = () => {
+  const goTrustPilot=()=>{
+    window.open("https://www.google.com/","_blank");
+  }
   return (
     <div>
 
-      <div className="card" >
+      <div className="card" onClick={goTrustPilot} >
         <div className="card-first">
            
           <img src={logo} alt="logo" width="25px"
